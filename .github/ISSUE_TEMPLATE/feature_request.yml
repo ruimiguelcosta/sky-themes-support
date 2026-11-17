@@ -1,0 +1,28 @@
+name: Feature request
+description: Suggest an improvement or a new feature.
+labels: [enhancement]
+body:
+  - type: dropdown
+    id: theme
+    attributes:
+      label: Theme
+      multiple: true
+      options:
+        - Sky Corporate
+        - Sky Association
+        - Sky Clinic
+        - Sky School
+        - Sky University
+        - Sky Training
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like the theme to do?
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why is it useful for your site?

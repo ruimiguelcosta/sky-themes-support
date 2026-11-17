@@ -1,0 +1,50 @@
+name: Bug report
+description: Something does not look or work as expected.
+labels: [bug]
+body:
+  - type: dropdown
+    id: theme
+    attributes:
+      label: Theme
+      options:
+        - Sky Corporate
+        - Sky Association
+        - Sky Clinic
+        - Sky School
+        - Sky University
+        - Sky Training
+    validations:
+      required: true
+  - type: input
+    id: themeversion
+    attributes:
+      label: Theme version
+      placeholder: "1.0.0 (Moodle 5.0 - 5.3)"
+    validations:
+      required: true
+  - type: input
+    id: moodleversion
+    attributes:
+      label: Moodle version
+      placeholder: "4.5.3"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Go to ...
+        2. Click ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What happened, and what did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: extra
+    attributes:
+      label: Screenshots, browser, other details
