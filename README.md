@@ -1,6 +1,6 @@
 # Sky themes for Moodle: support
 
-Public issue tracker for the Sky themes for Moodle by Sky Wings Digital, Lda.
+Public issue tracker for the Sky themes and plugins for Moodle by Sky Wings Digital, Lda.
 
 | Theme | Component |
 |---|---|
@@ -13,11 +13,15 @@ Public issue tracker for the Sky themes for Moodle by Sky Wings Digital, Lda.
 
 Each theme has two packages: Moodle 4.0 - 4.5 and Moodle 5.0 - 5.3.
 
+| Plugin | Component | Moodle |
+|---|---|---|
+| Sky Learning Time | `report_skytime` | 4.5 - 5.3 |
+
 ## Report a bug or ask for a feature
 
 [Open an issue](../../issues/new/choose) and choose the form that fits. Please include:
 
-- the theme and its version (Site administration > Plugins > Plugins overview);
+- the theme or plugin and its version (Site administration > Plugins > Plugins overview);
 - your Moodle version;
 - the steps to reproduce the problem, and a screenshot if you can.
 

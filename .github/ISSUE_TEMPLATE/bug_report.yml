@@ -5,7 +5,7 @@ body:
   - type: dropdown
     id: theme
     attributes:
-      label: Theme
+      label: Theme or plugin
       options:
         - Sky Corporate
         - Sky Association
@@ -13,12 +13,13 @@ body:
         - Sky School
         - Sky University
         - Sky Training
+        - Sky Learning Time (report_skytime)
     validations:
       required: true
   - type: input
     id: themeversion
     attributes:
-      label: Theme version
+      label: Theme or plugin version
       placeholder: "1.0.0 (Moodle 5.0 - 5.3)"
     validations:
       required: true
